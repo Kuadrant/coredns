@@ -57,5 +57,6 @@ import (
 	_ "github.com/coredns/coredns/plugin/view"
 	_ "github.com/coredns/coredns/plugin/whoami"
 
+	_ "github.com/kuadrant/dns-operator/coredns/plugin"
 	_ "github.com/openshift/coredns-ocp-dnsnameresolver"
 )
